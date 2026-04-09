@@ -9,6 +9,18 @@
   </head>
 
   <body>
+    <div class="page-shell">
+      <aside class="side-nav" aria-label="Section navigation">
+        <div class="side-nav-title">Contents</div>
+        <a href="#about">About</a>
+        <a href="#interests">Research Interests</a>
+        <a href="#experience">Research Experience</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#industry">Industry Experience</a>
+      </aside>
+      <div class="page-main">
     <table style="width:100%;max-width:1200px;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;">
       <tbody>
         <tr style="padding:0;">
@@ -17,7 +29,7 @@
               <tbody>
                 <tr style="padding:0;">
                   <td style="padding:2.5%;width:63%;vertical-align:middle;">
-                    <p class="name" style="text-align:center;">
+                    <p class="name" id="about" style="text-align:center;">
                       Tingrui Shen
                     </p>
                     <p class="hero-intro">
@@ -25,8 +37,7 @@
                       My work focuses on <strong>3D generation, world models, and embodied AI</strong>.
                     </p>
                     <p>
-                      I have worked with research groups at Singapore Management University, Peking University, and Huazhong University of Science and Technology,
-                      and with industry teams at Tencent and VAST/Tripo3D on 3D mesh generation, multimodal learning, and embodied intelligence.
+                      I have published papers at venues including CVPR and ACM MM, with recent work spanning 3D generation, multimodal learning, and embodied intelligence.
                     </p>
                     <p style="text-align:center;">
                       <a href="mailto:trshen925@gmail.com">Email</a> &nbsp;/&nbsp;
@@ -52,7 +63,7 @@
               <tbody>
                 <tr>
                   <td style="padding:16px;width:100%;vertical-align:middle;">
-                    <h2>Research Interests</h2>
+                    <h2 id="interests">Research Interests</h2>
                     <div class="overview-grid">
                       <div class="publication-card compact-card">
                         <div class="metric-label">3D Generation</div>
@@ -79,7 +90,7 @@
               <tbody>
                 <tr>
                   <td style="padding:16px;width:100%;vertical-align:middle;">
-                    <h2>Research Experience</h2>
+                    <h2 id="experience">Research Experience</h2>
                     <div class="timeline-list">
                       <div class="publication-card timeline-card">
                         <div class="timeline-date">Dec 2025 - Present</div>
@@ -125,7 +136,7 @@
               <tbody>
                 <tr>
                   <td style="padding:16px;width:100%;vertical-align:middle;">
-                    <h2>Education</h2>
+                    <h2 id="education">Education</h2>
                     <div class="dual-grid">
                       <div class="publication-card">
                         <span class="paper-tag tag-conference">Undergraduate</span>
@@ -149,97 +160,134 @@
               <tbody>
                 <tr>
                   <td style="padding:16px;width:100%;vertical-align:middle;">
-                    <h2>Publications</h2>
+                    <h2 id="publications">Publications</h2>
 
-                    <div class="section-label">First-author</div>
                     <div class="publication-card media-card">
-                      <div class="media-placeholder">Image Placeholder</div>
+                      <div class="media-image-wrap">
+                        <img class="media-image" src="flashmesh.jpg" alt="FlashMesh teaser">
+                      </div>
                       <div class="media-body">
-                        <a class="papertitle" href="https://arxiv.org/abs/2511.15622">FlashMesh: Faster and Better Autoregressive Mesh Synthesis via Structured Speculation</a>
+                        <a class="papertitle paper-title-badge" href="https://arxiv.org/abs/2511.15618">FlashMesh: Faster and Better Autoregressive Mesh Synthesis via Structured Speculation</a>
                         <p class="authors">
                           <span class="author-highlight">Tingrui Shen</span>, Yiheng Zhang, Chen Tang, Chuan Ping, Zixing Zhao, Le Wan, Yuwang Wang, Ronggang Wang, Shengfeng He
                         </p>
-                        <p class="venue-line">CVPR 2026</p>
+                        <p class="venue-line"><span class="paper-tag tag-conference">CVPR 2026</span></p>
+                        <p class="paper-links">
+                          <a class="paper-link" href="https://arxiv.org/abs/2511.15618">arXiv</a>
+                          <a class="paper-link" href="https://arxiv.org/pdf/2511.15618">Paper</a>
+                          <a class="paper-link" href="https://zazexy.github.io/flashmesh.github.io/">Project</a>
+                        </p>
                       </div>
                     </div>
 
                     <div class="publication-card media-card">
-                      <div class="media-placeholder">Image Placeholder</div>
-                      <div class="media-body">
-                        <a class="papertitle" href="https://trshen925.github.io/LanguageDriven3DPoseEstimation/">Language-Driven 3D Human Pose Estimation in Multi-Person Scenarios: A New Dataset and Approach</a>
+                      <div class="media-image-wrap">
+                        <img class="media-image" src="language3d.png" alt="language3d teaser">
+                      </div>                      <div class="media-body">
+                        <a class="papertitle paper-title-badge" href="https://languagedriven3dposeestimation.github.io/">Language-Driven 3D Human Pose Estimation in Multi-Person Scenarios: A New Dataset and Approach</a>
                         <p class="authors">
                           <span class="author-highlight">Tingrui Shen</span>, Bangzhen Liu, Zhirun Fan, Shiting Zhang, Weifeng Pan, Sun Fan, Dan Cao, Shengfeng He
                         </p>
-                        <p class="venue-line">ACM MM 2025</p>
+                        <p class="venue-line"><span class="paper-tag tag-conference">ACM MM 2025</span></p>
+                        <p class="paper-links">
+                          <a class="paper-link" href="https://doi.org/10.1145/3746027.3758216">Paper</a>
+                          <a class="paper-link" href="https://languagedriven3dposeestimation.github.io/">Project</a>
+                        </p>
                       </div>
                     </div>
 
-                    <div class="section-label">Under Review</div>
                     <div class="publication-card media-card">
-                      <div class="media-placeholder">Image Placeholder</div>
+                      <div class="media-image-wrap">
+                        <img class="media-image" src="lda-1B.png" alt="lda teaser">
+                      </div>    
                       <div class="media-body">
-                        <a class="papertitle" href="https://pku-epic.github.io/LDA/">LDA-1B: Scaling Latent Dynamics Action Model via Universal Embodied Data Ingestion</a>
+                        <a class="papertitle paper-title-badge" href="https://pku-epic.github.io/LDA/">LDA-1B: Scaling Latent Dynamics Action Model via Universal Embodied Data Ingestion</a>
                         <p class="authors">
                           Jiangran Lyu, Kai Liu, Xuheng Zhang, Haoran Liao, Yusen Feng, Wenxuan Zhu, <span class="author-highlight">Tingrui Shen</span>, Jiayi Chen, Jiazhao Zhang, Yifei Dong, Wenbo Cui, Senmao Qi, Shuo Wang, Yixin Zheng, Mi Yan, Xuesong Shi, Haoran Li, Dongbin Zhao, Ming-Yu Liu, Zhizheng Zhang, Li Yi, Yizhou Wang, He Wang
                         </p>
-                        <p class="venue-line">Under review, 2026</p>
+                        <p class="venue-line"><span class="paper-tag tag-under-review">Under Review 2026</span></p>
+                        <p class="paper-links">
+                          <a class="paper-link" href="https://arxiv.org/abs/2602.12215">arXiv</a>
+                          <a class="paper-link" href="https://arxiv.org/pdf/2602.12215">Paper</a>
+                          <a class="paper-link" href="https://pku-epic.github.io/LDA/">Project</a>
+                        </p>
                       </div>
                     </div>
 
                     <div class="publication-card media-card">
                       <div class="media-placeholder">Image Placeholder</div>
                       <div class="media-body">
-                        <div class="papertitle">QuadLink: Autoregressive Quad-Dominant Mesh Generation via Point-Relation Learning</div>
+                        <div class="papertitle paper-title-badge">QuadLink: Autoregressive Quad-Dominant Mesh Generation via Point-Relation Learning</div>
                         <p class="authors">
                           Yiheng Zhang, Zhe Zhu, <span class="author-highlight">Tingrui Shen</span>, Zhuojiang Cai, Tianxiao Li, Zixing Zhao, Qiujie Dong, Zhiyang Dou, Jiepeng Wang, Le Wan, Yuwang Wang, Wengping Wang, Yuan Liu, Cheng Lin
                         </p>
-                        <p class="venue-line">Under review, 2026</p>
+                        <p class="venue-line"><span class="paper-tag tag-under-review">Under Review 2026</span></p>
+                        <p class="paper-links">
+                          <span class="paper-link disabled">Links coming soon</span>
+                        </p>
                       </div>
                     </div>
 
-                    <div class="section-label">Second-author</div>
                     <div class="publication-card media-card">
-                      <div class="media-placeholder">Image Placeholder</div>
+                      <div class="media-image-wrap">
+                        <img class="media-image" src="msa2.png" alt="msa2 teaser">
+                      </div> 
                       <div class="media-body">
-                        <a class="papertitle" href="https://www.ijcai.org/proceedings/2025/917">DFMU: Distribution-Based Framework for Modeling Aleatoric Uncertainty in Multimodal Sentiment Analysis</a>
+                        <a class="papertitle paper-title-badge" href="https://www.ijcai.org/proceedings/2025/917">DFMU: Distribution-Based Framework for Modeling Aleatoric Uncertainty in Multimodal Sentiment Analysis</a>
                         <p class="authors">
                           Chen Tang, <span class="author-highlight">Tingrui Shen</span>, Xinrong Gong, Chong Zhao, Tong Zhang
                         </p>
-                        <p class="venue-line">IJCAI 2025</p>
+                        <p class="venue-line"><span class="paper-tag tag-conference">IJCAI 2025</span></p>
+                        <p class="paper-links">
+                          <a class="paper-link" href="https://www.ijcai.org/proceedings/2025/917">Paper</a>
+                          <a class="paper-link" href="https://www.ijcai.org/proceedings/2025/0917.pdf">PDF</a>
+                        </p>
                       </div>
                     </div>
 
-                    <div class="section-label">Other Authors</div>
                     <div class="publication-card media-card">
-                      <div class="media-placeholder">Image Placeholder</div>
+                      <div class="media-image-wrap">
+                        <img class="media-image" src="msa1.png" alt="msa1 teaser">
+                      </div> 
                       <div class="media-body">
-                        <a class="papertitle" href="https://doi.org/10.1109/ICME59968.2025.11208957">Towards Trustworthy Model via Uncertainty Verification in Multimodal Sentiment Analysis</a>
+                        <a class="papertitle paper-title-badge" href="https://doi.org/10.1109/ICME59968.2025.11208957">Towards Trustworthy Model via Uncertainty Verification in Multimodal Sentiment Analysis</a>
                         <p class="authors">
                           Chen Tang, Yangle Li, <span class="author-highlight">Tingrui Shen</span>, Xinrong Gong, Tong Zhang
                         </p>
-                        <p class="venue-line">ICME 2025</p>
+                        <p class="venue-line"><span class="paper-tag tag-conference">ICME 2025</span></p>
+                        <p class="paper-links">
+                          <a class="paper-link" href="https://doi.org/10.1109/ICME59968.2025.11208957">Paper</a>
+                        </p>
                       </div>
                     </div>
 
                     <div class="publication-card media-card">
                       <div class="media-placeholder">Image Placeholder</div>
                       <div class="media-body">
-                        <a class="papertitle" href="https://arxiv.org/abs/2507.09168">Stable Score Distillation</a>
+                        <a class="papertitle paper-title-badge" href="https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_Stable_Score_Distillation_ICCV_2025_paper.html">Stable Score Distillation</a>
                         <p class="authors">
                           Yiheng Zhang, Zhe Zhu, Xi Wang, <span class="author-highlight">Tingrui Shen</span>, Menghao Wang, Wengping Wang, Yuan Liu, Cheng Lin
                         </p>
-                        <p class="venue-line">ICCV 2025</p>
+                        <p class="venue-line"><span class="paper-tag tag-conference">ICCV 2025</span></p>
+                        <p class="paper-links">
+                          <a class="paper-link" href="https://arxiv.org/abs/2507.09168">arXiv</a>
+                          <a class="paper-link" href="https://openaccess.thecvf.com/content/ICCV2025/papers/Zhang_Stable_Score_Distillation_ICCV_2025_paper.pdf">Paper</a>
+                        </p>
                       </div>
                     </div>
 
                     <div class="publication-card media-card">
                       <div class="media-placeholder">Image Placeholder</div>
                       <div class="media-body">
-                        <a class="papertitle" href="https://openreview.net/forum?id=7A4tQ3CCB8">Teaching Diffusion Models to Ground Alpha Matte</a>
+                        <a class="papertitle paper-title-badge" href="https://openreview.net/forum?id=7A4tQ3CCB8">Teaching Diffusion Models to Ground Alpha Matte</a>
                         <p class="authors">
                           Zhirun Fan, Zhe Zhu, Yipeng Ma, <span class="author-highlight">Tingrui Shen</span>, Huan Yang, Bolei Zhou, Shengfeng He
                         </p>
-                        <p class="venue-line">TMLR 2025</p>
+                        <p class="venue-line"><span class="paper-tag tag-conference">TMLR 2025</span></p>
+                        <p class="paper-links">
+                          <a class="paper-link" href="https://openreview.net/forum?id=7A4tQ3CCB8">Paper</a>
+                          <a class="paper-link" href="https://github.com/xty435768/TeachDiffusionMatting">Project</a>
+                        </p>
                       </div>
                     </div>
                   </td>
@@ -251,7 +299,7 @@
               <tbody>
                 <tr>
                   <td style="padding:16px;width:100%;vertical-align:middle;">
-                    <h2>Projects</h2>
+                    <h2 id="projects">Projects</h2>
 
                     <div class="publication-card media-card">
                       <div class="media-placeholder">Image Placeholder</div>
@@ -297,7 +345,7 @@
               <tbody>
                 <tr>
                   <td style="padding:16px;width:100%;vertical-align:middle;">
-                    <h2>Industry Experience</h2>
+                    <h2 id="industry">Industry Experience</h2>
                     <div class="publication-card work-card">
                       <div class="work-logo">
                         <img src="tencent.png" alt="Tencent">
@@ -338,5 +386,7 @@
         </tr>
       </tbody>
     </table>
+      </div>
+    </div>
   </body>
 </html>
