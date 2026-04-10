@@ -553,6 +553,22 @@ span.highlight {
   margin: 8px 0 10px;
 }
 
+.edu-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.edu-head .entry-title {
+  margin-bottom: 0;
+}
+
+.edu-head .edu-logo {
+  margin: 0;
+  flex: 0 0 auto;
+}
+
 .pub-meta {
   margin-top: 10px;
   margin-bottom: 12px;
