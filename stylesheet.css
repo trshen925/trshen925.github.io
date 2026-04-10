@@ -310,15 +310,15 @@ span.highlight {
   margin-bottom: 12px;
   padding: 7px 14px;
   border-radius: 6px;
-  background-color: #e3f2fd;
-  color: #1565c0;
-  border: 1px solid #90caf9;
+  background-color: #f3f5f7;
+  color: #26323f;
+  border: 1px solid #d7dde4;
   line-height: 1.5;
 }
 
 .paper-title-badge:hover {
-  color: #0d5cab;
-  border-color: #5ea5ea;
+  color: #26323f;
+  border-color: #d7dde4;
 }
 
 .hero-intro {
@@ -364,12 +364,16 @@ span.highlight {
 }
 
 .metric-label {
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #1772d0;
-  font-weight: 700;
-  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #0d5cab;
+  font-weight: 800;
+  margin-bottom: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background-color: #eaf3ff;
+  border: 1px solid #bfd9fb;
 }
 
 .metric-value,
@@ -438,11 +442,9 @@ span.highlight {
 }
 
 .author-highlight {
-  background-color: #fff4cc;
-  color: #7c5b00;
-  padding: 1px 5px;
-  border-radius: 4px;
-  font-weight: 700;
+  color: #0d5cab;
+  padding: 0;
+  font-weight: 800;
 }
 
 .venue-line {
