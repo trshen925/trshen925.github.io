@@ -550,22 +550,22 @@ span.highlight {
   border: 1px solid #dbe3ec;
   background-color: #ffffff;
   padding: 4px;
-  margin: 8px 0 10px;
+  margin: 0;
 }
 
-.edu-head {
+.edu-top {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 12px;
+  margin-bottom: 10px;
 }
 
-.edu-head .entry-title {
+.edu-top .paper-tag {
   margin-bottom: 0;
 }
 
-.edu-head .edu-logo {
-  margin: 0;
+.edu-top .edu-logo {
   flex: 0 0 auto;
 }
 
