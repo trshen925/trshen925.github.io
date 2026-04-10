@@ -504,6 +504,25 @@ span.highlight {
   text-transform: uppercase;
 }
 
+.research-card {
+  padding: 20px;
+}
+
+.research-card .timeline-title {
+  font-size: 19px;
+  margin-bottom: 6px;
+}
+
+.advisor-line {
+  margin-bottom: 0;
+  color: #4d5f73;
+}
+
+.advisor-line a {
+  color: #0d5cab;
+  font-weight: 700;
+}
+
 .logo-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -519,6 +538,17 @@ span.highlight {
   border: 1px solid #e8e8e8;
   padding: 14px;
   background-color: #fafafa;
+}
+
+.edu-logo {
+  width: 74px;
+  height: 74px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid #dbe3ec;
+  background-color: #ffffff;
+  padding: 8px;
+  margin: 10px 0 12px;
 }
 
 .pub-meta {
